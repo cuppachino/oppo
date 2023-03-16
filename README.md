@@ -3,7 +3,7 @@
 ## Run & Reload `mod-<N>.rs`
 
 This command clears the scrollbuffer and starts a watch server in the project directory.
-We're using `-x` because `run` is a cargo commmand. If you need to run a shell command, use `-s` instead.
+I'm using `-x` because `run` is a cargo command. If you need to run a shell command, use `-s` instead.
 
 ```ps1
 clear && cargo watch -q -x 'run --bin mod-<N>'
